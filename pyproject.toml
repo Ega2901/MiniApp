@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "miniapp"
+version = "0.1.0"
+description = "Telegram MiniApp"
+authors = ["Ega2901"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.6"
+djangorestframework = "^3.15.2"
+mysql-connector-python = "^9.0.0"
+python-dotenv = "^1.0.1"
+django-cors-headers = "^4.4.0"
+pillow = "^10.4.0"
+aiogram = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
